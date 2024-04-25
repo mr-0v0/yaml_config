@@ -1,0 +1,1 @@
+This module can read a YAML file and replace any value starting with '$' with the corresponding environment variable. You can use this to create a configuration file that requires multiple environment variables, such as secrets, API keys, passwords, etc. When saving back to the configuration, it will read the existing config file and ignore all values starting with '$'.
