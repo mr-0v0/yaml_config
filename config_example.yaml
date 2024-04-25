@@ -1,0 +1,12 @@
+APIServer:
+  Password: $api_password
+  Server: 127.0.0.1:8080
+  UserName: $api_username
+Database:
+  Password: $db_password
+  Server: 127.0.0.1
+  UserName: $db_user
+Vault:
+  Password: $vault_password
+  Server: 127.0.0.1:8000
+  UserName: $vault_user
